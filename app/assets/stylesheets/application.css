@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+ .card {
+     left: 40%;
+     right: 50%;
+     margin-top:20%
+ }
+
+#date {
+    visibility: hidden;
+}

@@ -1,2 +1,7 @@
-<h1>Todays Date</h1>
-<%= Time.now.strftime("%m/%d/%Y")  %>
+<div class="card d-flex align-items-center" style="width:18rem;">
+  <h1>Todays Date </h1>
+  <button type="button" id='display_date' onclick="displayDate()" class="btn btn-info">Display Date</button>
+  <span id="date">we are on : <%=  Time.now.strftime("%m/%d/%Y")  %><br>
+      <button type="button" id='hide_date' onclick="hideDate()" class="btn btn-warning">Hide Date</button>
+  </span>
+</div>

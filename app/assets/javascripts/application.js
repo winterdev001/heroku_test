@@ -14,3 +14,12 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+function displayDate() {
+  var btn = document.getElementById('date').style.visibility = "visible";
+}
+
+function hideDate() {
+  var btn = document.getElementById('date').style.visibility = "hidden";
+}
+
